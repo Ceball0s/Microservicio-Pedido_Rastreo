@@ -1,0 +1,64 @@
+{
+  "info": {
+    "name": "PedidoRastreo API",
+    "_postman_id": "e1396e8f-2d2a-4f17-8dd3-9b4a68c5b0dd",
+    "description": "Endpoints del microservicio PedidoRastreo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Crear Pedido",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"idComprador\": 1,\n  \"idVendedor\": 2,\n  \"nombreProducto\": \"Laptop\",\n  \"descripcionProducto\": \"Laptop gamer 16GB RAM\",\n  \"precioFinal\": 2500.00\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/pedidos/crear",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "pedidos", "crear"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Consultar Pedido por Tracking ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/pedidos/rastrear/PED-0001",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "pedidos", "rastrear", "PED-0001"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Pedidos de Usuario",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/pedidos/usuario/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["api", "pedidos", "usuario", "1"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
