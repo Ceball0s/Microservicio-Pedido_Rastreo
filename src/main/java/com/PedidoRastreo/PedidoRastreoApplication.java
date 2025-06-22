@@ -1,4 +1,4 @@
-package com.Pedido_Rastreo;
+package com.PedidoRastreo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

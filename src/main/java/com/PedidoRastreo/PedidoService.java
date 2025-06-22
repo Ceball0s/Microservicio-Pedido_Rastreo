@@ -1,7 +1,7 @@
-package com.Pedido_Rastreo;
+package com.PedidoRastreo;
 
-import com.Pedido_Rastreo.Models.Pedido;
-import com.Pedido_Rastreo.PedidoRepository;
+import com.PedidoRastreo.Models.Pedido;
+import com.PedidoRastreo.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

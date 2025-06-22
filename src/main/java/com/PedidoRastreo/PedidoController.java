@@ -1,7 +1,7 @@
-package com.Pedido_Rastreo;
+package com.PedidoRastreo;
 
-import com.Pedido_Rastreo.Models.Pedido;
-import com.Pedido_Rastreo.PedidoService;
+import com.PedidoRastreo.Models.Pedido;
+import com.PedidoRastreo.PedidoService;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

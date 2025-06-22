@@ -1,6 +1,6 @@
-package com.Pedido_Rastreo;
+package com.PedidoRastreo;
 
-import com.Pedido_Rastreo.Models.Pedido;
+import com.PedidoRastreo.Models.Pedido;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

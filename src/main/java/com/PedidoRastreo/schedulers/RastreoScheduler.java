@@ -1,7 +1,7 @@
-package com.Pedido_Rastreo.schedulers;
+package com.PedidoRastreo.schedulers;
 
-import com.Pedido_Rastreo.Models.Pedido;
-import com.Pedido_Rastreo.PedidoRepository;
+import com.PedidoRastreo.Models.Pedido;
+import com.PedidoRastreo.PedidoRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

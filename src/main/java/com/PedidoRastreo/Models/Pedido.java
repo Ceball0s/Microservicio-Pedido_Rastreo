@@ -1,4 +1,4 @@
-package com.Pedido_Rastreo.Models;
+package com.PedidoRastreo.Models;
 
 import jakarta.persistence.*;
 import lombok.*;
